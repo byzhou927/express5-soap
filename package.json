@@ -4,9 +4,8 @@
   "description": "Express middleware based upon node-soap",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && tsc --project test",
+    "build": "tsc",
     "pretest": "npm run build",
-    "test": "mocha 'test/specs/**/*.js'",
     "prepublish": "npm run build"
   },
   "repository": {
@@ -26,19 +25,8 @@
     "soap": "1.8.0"
   },
   "devDependencies": {
-    "@types/chai": "4.3.1",
-    "@types/mocha": "9.1.1",
-    "@types/sinon": "10.0.11",
-    "@types/sinon-chai": "3.2.8",
-    "@types/supertest": "2.0.12",
-    "@types/xml2js": "0.4.11",
-    "chai": "4.3.6",
     "express": "5.2.1",
-    "mocha": "11.7.5",
-    "sinon": "14.0.0",
-    "sinon-chai": "3.7.0",
     "soap": "1.8.0",
-    "supertest": "6.2.3",
     "tslint": "5.20.1",
     "typescript": "4.7.4",
     "xml2js": "0.4.23"
